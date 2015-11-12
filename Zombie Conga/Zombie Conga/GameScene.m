@@ -14,6 +14,8 @@
 {
     if (self = [super initWithSize:size]) {
         self.backgroundColor = [SKColor whiteColor];
+        SKSpriteNode *bg = [SKSpriteNode spriteNodeWithImageNamed:@"background"];
+        [self addChild:bg];
     }
     return self;
 }

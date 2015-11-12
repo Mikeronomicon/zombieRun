@@ -17,6 +17,23 @@
 		CB732D981BF5408100CCEC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB732D961BF5408100CCEC87 /* LaunchScreen.storyboard */; };
 		CB732DA31BF5408200CCEC87 /* Zombie_CongaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732DA21BF5408200CCEC87 /* Zombie_CongaTests.m */; };
 		CB732DAE1BF5408200CCEC87 /* Zombie_CongaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732DAD1BF5408200CCEC87 /* Zombie_CongaUITests.m */; };
+		CBF1C3BF1BF54969006A588C /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B11BF54969006A588C /* Icon-29.png */; };
+		CBF1C3C01BF54969006A588C /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B21BF54969006A588C /* Icon-58.png */; };
+		CBF1C3C11BF54969006A588C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B31BF54969006A588C /* Icon-72.png */; };
+		CBF1C3C21BF54969006A588C /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B41BF54969006A588C /* Icon-80.png */; };
+		CBF1C3C31BF54969006A588C /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B51BF54969006A588C /* Icon-120.png */; };
+		CBF1C3C41BF54969006A588C /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B61BF54969006A588C /* Icon-144.png */; };
+		CBF1C3C51BF54969006A588C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B71BF54969006A588C /* Icon-Small-50.png */; };
+		CBF1C3C61BF54969006A588C /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B81BF54969006A588C /* Icon-Small-50@2x.png */; };
+		CBF1C3C71BF54969006A588C /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B91BF54969006A588C /* Icon-Small.png */; };
+		CBF1C3C81BF54969006A588C /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BA1BF54969006A588C /* Icon-Small@2x.png */; };
+		CBF1C3C91BF54969006A588C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BB1BF54969006A588C /* Icon.png */; };
+		CBF1C3CA1BF54969006A588C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BC1BF54969006A588C /* Icon@2x.png */; };
+		CBF1C3CB1BF54969006A588C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BD1BF54969006A588C /* iTunesArtwork.png */; };
+		CBF1C3CC1BF54969006A588C /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BE1BF54969006A588C /* iTunesArtwork@2x.png */; };
+		CBF1C3D11BF549A9006A588C /* Backgrounds in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3CE1BF549A9006A588C /* Backgrounds */; };
+		CBF1C3D21BF549A9006A588C /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3CF1BF549A9006A588C /* Sounds */; };
+		CBF1C3D31BF549A9006A588C /* sprites in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3D01BF549A9006A588C /* sprites */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +73,23 @@
 		CB732DA91BF5408200CCEC87 /* Zombie CongaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zombie CongaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB732DAD1BF5408200CCEC87 /* Zombie_CongaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zombie_CongaUITests.m; sourceTree = "<group>"; };
 		CB732DAF1BF5408200CCEC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF1C3B11BF54969006A588C /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29.png"; path = "App Icon/Icon-29.png"; sourceTree = "<group>"; };
+		CBF1C3B21BF54969006A588C /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-58.png"; path = "App Icon/Icon-58.png"; sourceTree = "<group>"; };
+		CBF1C3B31BF54969006A588C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "App Icon/Icon-72.png"; sourceTree = "<group>"; };
+		CBF1C3B41BF54969006A588C /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-80.png"; path = "App Icon/Icon-80.png"; sourceTree = "<group>"; };
+		CBF1C3B51BF54969006A588C /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "App Icon/Icon-120.png"; sourceTree = "<group>"; };
+		CBF1C3B61BF54969006A588C /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "App Icon/Icon-144.png"; sourceTree = "<group>"; };
+		CBF1C3B71BF54969006A588C /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "App Icon/Icon-Small-50.png"; sourceTree = "<group>"; };
+		CBF1C3B81BF54969006A588C /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "App Icon/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		CBF1C3B91BF54969006A588C /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "App Icon/Icon-Small.png"; sourceTree = "<group>"; };
+		CBF1C3BA1BF54969006A588C /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "App Icon/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		CBF1C3BB1BF54969006A588C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "App Icon/Icon.png"; sourceTree = "<group>"; };
+		CBF1C3BC1BF54969006A588C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "App Icon/Icon@2x.png"; sourceTree = "<group>"; };
+		CBF1C3BD1BF54969006A588C /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "App Icon/iTunesArtwork.png"; sourceTree = "<group>"; };
+		CBF1C3BE1BF54969006A588C /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "App Icon/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		CBF1C3CE1BF549A9006A588C /* Backgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Backgrounds; path = Art/Backgrounds; sourceTree = "<group>"; };
+		CBF1C3CF1BF549A9006A588C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = Art/Sounds; sourceTree = "<group>"; };
+		CBF1C3D01BF549A9006A588C /* sprites */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sprites; path = Art/sprites; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +147,10 @@
 				CB732D8C1BF5408100CCEC87 /* GameScene.sks */,
 				CB732D8E1BF5408100CCEC87 /* GameViewController.h */,
 				CB732D8F1BF5408100CCEC87 /* GameViewController.m */,
+				CBF1C3CE1BF549A9006A588C /* Backgrounds */,
+				CBF1C3CF1BF549A9006A588C /* Sounds */,
+				CBF1C3D01BF549A9006A588C /* sprites */,
+				CBF1C3CD1BF54994006A588C /* app icon */,
 				CB732D911BF5408100CCEC87 /* Main.storyboard */,
 				CB732D941BF5408100CCEC87 /* Assets.xcassets */,
 				CB732D961BF5408100CCEC87 /* LaunchScreen.storyboard */,
@@ -146,6 +184,27 @@
 				CB732DAF1BF5408200CCEC87 /* Info.plist */,
 			);
 			path = "Zombie CongaUITests";
+			sourceTree = "<group>";
+		};
+		CBF1C3CD1BF54994006A588C /* app icon */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1C3B11BF54969006A588C /* Icon-29.png */,
+				CBF1C3B21BF54969006A588C /* Icon-58.png */,
+				CBF1C3B31BF54969006A588C /* Icon-72.png */,
+				CBF1C3B41BF54969006A588C /* Icon-80.png */,
+				CBF1C3B51BF54969006A588C /* Icon-120.png */,
+				CBF1C3B61BF54969006A588C /* Icon-144.png */,
+				CBF1C3B71BF54969006A588C /* Icon-Small-50.png */,
+				CBF1C3B81BF54969006A588C /* Icon-Small-50@2x.png */,
+				CBF1C3B91BF54969006A588C /* Icon-Small.png */,
+				CBF1C3BA1BF54969006A588C /* Icon-Small@2x.png */,
+				CBF1C3BB1BF54969006A588C /* Icon.png */,
+				CBF1C3BC1BF54969006A588C /* Icon@2x.png */,
+				CBF1C3BD1BF54969006A588C /* iTunesArtwork.png */,
+				CBF1C3BE1BF54969006A588C /* iTunesArtwork@2x.png */,
+			);
+			name = "app icon";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +311,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB732D8D1BF5408100CCEC87 /* GameScene.sks in Resources */,
+				CBF1C3CB1BF54969006A588C /* iTunesArtwork.png in Resources */,
+				CBF1C3CA1BF54969006A588C /* Icon@2x.png in Resources */,
 				CB732D981BF5408100CCEC87 /* LaunchScreen.storyboard in Resources */,
+				CBF1C3C51BF54969006A588C /* Icon-Small-50.png in Resources */,
+				CBF1C3C71BF54969006A588C /* Icon-Small.png in Resources */,
 				CB732D951BF5408100CCEC87 /* Assets.xcassets in Resources */,
 				CB732D931BF5408100CCEC87 /* Main.storyboard in Resources */,
+				CBF1C3C21BF54969006A588C /* Icon-80.png in Resources */,
+				CBF1C3C61BF54969006A588C /* Icon-Small-50@2x.png in Resources */,
+				CBF1C3D21BF549A9006A588C /* Sounds in Resources */,
+				CBF1C3BF1BF54969006A588C /* Icon-29.png in Resources */,
+				CBF1C3C11BF54969006A588C /* Icon-72.png in Resources */,
+				CBF1C3C31BF54969006A588C /* Icon-120.png in Resources */,
+				CBF1C3CC1BF54969006A588C /* iTunesArtwork@2x.png in Resources */,
+				CBF1C3C41BF54969006A588C /* Icon-144.png in Resources */,
+				CBF1C3C91BF54969006A588C /* Icon.png in Resources */,
+				CBF1C3D11BF549A9006A588C /* Backgrounds in Resources */,
+				CBF1C3D31BF549A9006A588C /* sprites in Resources */,
+				CBF1C3C01BF54969006A588C /* Icon-58.png in Resources */,
+				CBF1C3C81BF54969006A588C /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +584,7 @@
 				CB732DB41BF5408200CCEC87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB732DB51BF5408200CCEC87 /* Build configuration list for PBXNativeTarget "Zombie CongaTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +593,7 @@
 				CB732DB71BF5408200CCEC87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB732DB81BF5408200CCEC87 /* Build configuration list for PBXNativeTarget "Zombie CongaUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +602,7 @@
 				CB732DBA1BF5408200CCEC87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
