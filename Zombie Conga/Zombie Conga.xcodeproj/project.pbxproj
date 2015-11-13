@@ -10,7 +10,6 @@
 		CB732D851BF5408100CCEC87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732D841BF5408100CCEC87 /* main.m */; };
 		CB732D881BF5408100CCEC87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732D871BF5408100CCEC87 /* AppDelegate.m */; };
 		CB732D8B1BF5408100CCEC87 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732D8A1BF5408100CCEC87 /* GameScene.m */; };
-		CB732D8D1BF5408100CCEC87 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB732D8C1BF5408100CCEC87 /* GameScene.sks */; };
 		CB732D901BF5408100CCEC87 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732D8F1BF5408100CCEC87 /* GameViewController.m */; };
 		CB732D931BF5408100CCEC87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB732D911BF5408100CCEC87 /* Main.storyboard */; };
 		CB732D951BF5408100CCEC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB732D941BF5408100CCEC87 /* Assets.xcassets */; };
@@ -31,9 +30,17 @@
 		CBF1C3CA1BF54969006A588C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BC1BF54969006A588C /* Icon@2x.png */; };
 		CBF1C3CB1BF54969006A588C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BD1BF54969006A588C /* iTunesArtwork.png */; };
 		CBF1C3CC1BF54969006A588C /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3BE1BF54969006A588C /* iTunesArtwork@2x.png */; };
-		CBF1C3D11BF549A9006A588C /* Backgrounds in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3CE1BF549A9006A588C /* Backgrounds */; };
 		CBF1C3D21BF549A9006A588C /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3CF1BF549A9006A588C /* Sounds */; };
 		CBF1C3D31BF549A9006A588C /* sprites in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3D01BF549A9006A588C /* sprites */; };
+		CBF1C3D51BF54F5F006A588C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3D41BF54F5F006A588C /* GameScene.sks */; };
+		CBF1C3DE1BF56091006A588C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3D61BF56091006A588C /* background.png */; };
+		CBF1C3DF1BF56091006A588C /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3D71BF56091006A588C /* background@2x.png */; };
+		CBF1C3E01BF56091006A588C /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3D81BF56091006A588C /* MainMenu.png */; };
+		CBF1C3E11BF56091006A588C /* MainMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3D91BF56091006A588C /* MainMenu@2x.png */; };
+		CBF1C3E21BF56091006A588C /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3DA1BF56091006A588C /* YouLose.png */; };
+		CBF1C3E31BF56091006A588C /* YouLose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3DB1BF56091006A588C /* YouLose@2x.png */; };
+		CBF1C3E41BF56091006A588C /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3DC1BF56091006A588C /* YouWin.png */; };
+		CBF1C3E51BF56091006A588C /* YouWin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3DD1BF56091006A588C /* YouWin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +67,6 @@
 		CB732D871BF5408100CCEC87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB732D891BF5408100CCEC87 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		CB732D8A1BF5408100CCEC87 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		CB732D8C1BF5408100CCEC87 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		CB732D8E1BF5408100CCEC87 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		CB732D8F1BF5408100CCEC87 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		CB732D921BF5408100CCEC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,9 +93,17 @@
 		CBF1C3BC1BF54969006A588C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "App Icon/Icon@2x.png"; sourceTree = "<group>"; };
 		CBF1C3BD1BF54969006A588C /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "App Icon/iTunesArtwork.png"; sourceTree = "<group>"; };
 		CBF1C3BE1BF54969006A588C /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "App Icon/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
-		CBF1C3CE1BF549A9006A588C /* Backgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Backgrounds; path = Art/Backgrounds; sourceTree = "<group>"; };
 		CBF1C3CF1BF549A9006A588C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = Art/Sounds; sourceTree = "<group>"; };
 		CBF1C3D01BF549A9006A588C /* sprites */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sprites; path = Art/sprites; sourceTree = "<group>"; };
+		CBF1C3D41BF54F5F006A588C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../GameScene.sks; sourceTree = "<group>"; };
+		CBF1C3D61BF56091006A588C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "Zombie Conga/Art/Backgrounds/background.png"; sourceTree = "<group>"; };
+		CBF1C3D71BF56091006A588C /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Zombie Conga/Art/Backgrounds/background@2x.png"; sourceTree = "<group>"; };
+		CBF1C3D81BF56091006A588C /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MainMenu.png; path = "Zombie Conga/Art/Backgrounds/MainMenu.png"; sourceTree = "<group>"; };
+		CBF1C3D91BF56091006A588C /* MainMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MainMenu@2x.png"; path = "Zombie Conga/Art/Backgrounds/MainMenu@2x.png"; sourceTree = "<group>"; };
+		CBF1C3DA1BF56091006A588C /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YouLose.png; path = "Zombie Conga/Art/Backgrounds/YouLose.png"; sourceTree = "<group>"; };
+		CBF1C3DB1BF56091006A588C /* YouLose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YouLose@2x.png"; path = "Zombie Conga/Art/Backgrounds/YouLose@2x.png"; sourceTree = "<group>"; };
+		CBF1C3DC1BF56091006A588C /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YouWin.png; path = "Zombie Conga/Art/Backgrounds/YouWin.png"; sourceTree = "<group>"; };
+		CBF1C3DD1BF56091006A588C /* YouWin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YouWin@2x.png"; path = "Zombie Conga/Art/Backgrounds/YouWin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,14 +154,14 @@
 		CB732D821BF5408100CCEC87 /* Zombie Conga */ = {
 			isa = PBXGroup;
 			children = (
+				CBF1C3D41BF54F5F006A588C /* GameScene.sks */,
 				CB732D861BF5408100CCEC87 /* AppDelegate.h */,
 				CB732D871BF5408100CCEC87 /* AppDelegate.m */,
 				CB732D891BF5408100CCEC87 /* GameScene.h */,
 				CB732D8A1BF5408100CCEC87 /* GameScene.m */,
-				CB732D8C1BF5408100CCEC87 /* GameScene.sks */,
 				CB732D8E1BF5408100CCEC87 /* GameViewController.h */,
 				CB732D8F1BF5408100CCEC87 /* GameViewController.m */,
-				CBF1C3CE1BF549A9006A588C /* Backgrounds */,
+				CBF1C3E61BF5609F006A588C /* background */,
 				CBF1C3CF1BF549A9006A588C /* Sounds */,
 				CBF1C3D01BF549A9006A588C /* sprites */,
 				CBF1C3CD1BF54994006A588C /* app icon */,
@@ -205,6 +219,22 @@
 				CBF1C3BE1BF54969006A588C /* iTunesArtwork@2x.png */,
 			);
 			name = "app icon";
+			sourceTree = "<group>";
+		};
+		CBF1C3E61BF5609F006A588C /* background */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1C3D61BF56091006A588C /* background.png */,
+				CBF1C3D71BF56091006A588C /* background@2x.png */,
+				CBF1C3D81BF56091006A588C /* MainMenu.png */,
+				CBF1C3D91BF56091006A588C /* MainMenu@2x.png */,
+				CBF1C3DA1BF56091006A588C /* YouLose.png */,
+				CBF1C3DB1BF56091006A588C /* YouLose@2x.png */,
+				CBF1C3DC1BF56091006A588C /* YouWin.png */,
+				CBF1C3DD1BF56091006A588C /* YouWin@2x.png */,
+			);
+			name = background;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,25 +340,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB732D8D1BF5408100CCEC87 /* GameScene.sks in Resources */,
 				CBF1C3CB1BF54969006A588C /* iTunesArtwork.png in Resources */,
+				CBF1C3E01BF56091006A588C /* MainMenu.png in Resources */,
+				CBF1C3E21BF56091006A588C /* YouLose.png in Resources */,
 				CBF1C3CA1BF54969006A588C /* Icon@2x.png in Resources */,
 				CB732D981BF5408100CCEC87 /* LaunchScreen.storyboard in Resources */,
 				CBF1C3C51BF54969006A588C /* Icon-Small-50.png in Resources */,
+				CBF1C3D51BF54F5F006A588C /* GameScene.sks in Resources */,
 				CBF1C3C71BF54969006A588C /* Icon-Small.png in Resources */,
 				CB732D951BF5408100CCEC87 /* Assets.xcassets in Resources */,
 				CB732D931BF5408100CCEC87 /* Main.storyboard in Resources */,
 				CBF1C3C21BF54969006A588C /* Icon-80.png in Resources */,
+				CBF1C3DE1BF56091006A588C /* background.png in Resources */,
+				CBF1C3E41BF56091006A588C /* YouWin.png in Resources */,
 				CBF1C3C61BF54969006A588C /* Icon-Small-50@2x.png in Resources */,
+				CBF1C3E11BF56091006A588C /* MainMenu@2x.png in Resources */,
 				CBF1C3D21BF549A9006A588C /* Sounds in Resources */,
 				CBF1C3BF1BF54969006A588C /* Icon-29.png in Resources */,
+				CBF1C3E31BF56091006A588C /* YouLose@2x.png in Resources */,
 				CBF1C3C11BF54969006A588C /* Icon-72.png in Resources */,
 				CBF1C3C31BF54969006A588C /* Icon-120.png in Resources */,
+				CBF1C3E51BF56091006A588C /* YouWin@2x.png in Resources */,
 				CBF1C3CC1BF54969006A588C /* iTunesArtwork@2x.png in Resources */,
 				CBF1C3C41BF54969006A588C /* Icon-144.png in Resources */,
 				CBF1C3C91BF54969006A588C /* Icon.png in Resources */,
-				CBF1C3D11BF549A9006A588C /* Backgrounds in Resources */,
 				CBF1C3D31BF549A9006A588C /* sprites in Resources */,
+				CBF1C3DF1BF56091006A588C /* background@2x.png in Resources */,
 				CBF1C3C01BF54969006A588C /* Icon-58.png in Resources */,
 				CBF1C3C81BF54969006A588C /* Icon-Small@2x.png in Resources */,
 			);
