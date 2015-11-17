@@ -31,7 +31,7 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
         CGSize mySize = bg.size;
         NSLog(@"Size: %@", NSStringFromCGSize(mySize));
         _zombie = [SKSpriteNode spriteNodeWithImageNamed:@"zombie1"];
-        _zombie.position = CGPointMake(100, 100);
+        [self moveSprite:_zombie velocity:CGPointMake(ZOMBIE_MOVE_POINTS_PER_SEC, 0)];
         [self addChild:_zombie];
 
     }
@@ -47,6 +47,13 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
     _lastUpdateTime = currentTime;
     NSLog(@"%0.2f milliseconds since last update", _dt * 1000);
     _zombie.position = CGPointMake(_zombie.position.x + 2, _zombie.position.y);
+}
+
+-(void)moveSprite:(SKSpriteNode *)sprite velocity:(CGPoint)velocity {
+    CGPoint amountToMove = CGPointMake(velocity.x * _dt, velocity.y * _dt);
+    NSLog(@"Amount to move: %@", NSStringFromCGPoint(amountToMove));
+    
+    sprite.position = CGPointMake(sprite.position.x + amountToMove.x, sprite.position.y + amountToMove.y);
 }
 
 @end
