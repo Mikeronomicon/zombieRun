@@ -8,10 +8,15 @@
 
 #import "GameScene.h"
 
+static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
+
 @implementation GameScene
 
 {
     SKSpriteNode *_zombie;
+    NSTimeInterval _lastUpdateTime;
+    NSTimeInterval _dt;
+    CGPoint _velocity;
 }
 
 -(id)initWithSize:(CGSize)size
@@ -31,6 +36,17 @@
 
     }
     return self;
+}
+
+-(void)update:(NSTimeInterval)currentTime {
+    if (_lastUpdateTime) {
+        _dt = currentTime - _lastUpdateTime;
+    } else {
+        _dt = 0;
+    }
+    _lastUpdateTime = currentTime;
+    NSLog(@"%0.2f milliseconds since last update", _dt * 1000);
+    _zombie.position = CGPointMake(_zombie.position.x + 2, _zombie.position.y);
 }
 
 @end
