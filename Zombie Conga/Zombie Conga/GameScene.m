@@ -25,7 +25,7 @@
         [self addChild:bg];
         CGSize mySize = bg.size;
         NSLog(@"Size: %@", NSStringFromCGSize(mySize));
-        SKSpriteNode *_zombie = [SKSpriteNode spriteNodeWithImageNamed:@"zombie1"];
+        _zombie = [SKSpriteNode spriteNodeWithImageNamed:@"zombie1"];
         _zombie.position = CGPointMake(100, 100);
         [self addChild:_zombie];
 
