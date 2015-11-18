@@ -48,6 +48,7 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
     NSLog(@"%0.2f milliseconds since last update", _dt * 1000);
 //    _zombie.position = CGPointMake(_zombie.position.x + 2, _zombie.position.y);
     [self moveSprite:_zombie velocity:_velocity];
+    [self boundsCheckPlayer];
 }
 
 -(void)moveSprite:(SKSpriteNode *)sprite velocity:(CGPoint)velocity {
@@ -80,6 +81,33 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
     UITouch *touch = [touches anyObject];
     CGPoint touchLocation = [touch locationInNode:self];
     [self moveZombieToward:touchLocation];
+}
+
+-(void)boundsCheckPlayer {
+    CGPoint newPosition = _zombie.position;
+    CGPoint newVelocity = _velocity;
+    
+    CGPoint bottomLeft = CGPointZero;
+    CGPoint topRight = CGPointMake(self.size.width, self.size.height);
+    
+    if (newPosition.x <= bottomLeft.x) {
+        newPosition.x = bottomLeft.x;
+        newVelocity.x = -newVelocity.x;
+    }
+    if (newPosition.x >= topRight.x) {
+        newPosition.x = topRight.x;
+        newVelocity.x = -newVelocity.x;
+    }
+    if (newPosition.y <= bottomLeft.y) {
+        newPosition.y = bottomLeft.y;
+        newVelocity.y = -newVelocity.y;
+    }
+    if (newPosition.y >= topRight.y) {
+        newPosition.y = topRight.y;
+        newVelocity.y = -newVelocity.y;
+    }
+    _zombie.position = newPosition;
+    _velocity = newVelocity;
 }
 
 @end
