@@ -49,6 +49,7 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
 //    _zombie.position = CGPointMake(_zombie.position.x + 2, _zombie.position.y);
     [self moveSprite:_zombie velocity:_velocity];
     [self boundsCheckPlayer];
+    [self rotateSprite:_zombie toFace:_velocity];
 }
 
 -(void)moveSprite:(SKSpriteNode *)sprite velocity:(CGPoint)velocity {
@@ -56,6 +57,10 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
     NSLog(@"Amount to move: %@", NSStringFromCGPoint(amountToMove));
     
     sprite.position = CGPointMake(sprite.position.x + amountToMove.x, sprite.position.y + amountToMove.y);
+}
+
+-(void)rotateSprite:(SKSpriteNode *)sprite toFace:(CGPoint)direction {
+    sprite.zRotation = atan2f(direction.y, direction.x);
 }
 
 -(void)moveZombieToward:(CGPoint)location {
