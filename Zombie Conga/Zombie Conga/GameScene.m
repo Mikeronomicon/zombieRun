@@ -76,6 +76,7 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
         _zombie = [SKSpriteNode spriteNodeWithImageNamed:@"zombie1"];
         [self moveSprite:_zombie velocity:CGPointMake(ZOMBIE_MOVE_POINTS_PER_SEC, 0)];
         [self addChild:_zombie];
+        [self spawnEnemy];
 
     }
     return self;
@@ -178,7 +179,10 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
 -(void)spawnEnemy {
     SKSpriteNode *enemy = [SKSpriteNode spriteNodeWithImageNamed:@"enemy"];
     enemy.position = CGPointMake(self.size.width + enemy.size.width/2, self.size.height/2);
+    
     [self addChild:enemy];
+    SKAction *actionMove = [SKAction moveTo:CGPointMake(-enemy.size.width/2, enemy.position.y) duration:2.0];
+    [enemy runAction:actionMove];
 }
 
 @end
