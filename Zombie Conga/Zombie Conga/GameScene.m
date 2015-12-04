@@ -105,8 +105,6 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
 }
 -(void)moveSprite:(SKSpriteNode *)sprite velocity:(CGPoint)velocity {
     CGPoint amountToMove = CGPointMultiplyScalar(velocity, _dt);
-    NSLog(@"Amount to move: %@", NSStringFromCGPoint(amountToMove));
-    
     sprite.position = CGPointAdd(sprite.position, amountToMove);
 }
 
@@ -181,8 +179,11 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
     enemy.position = CGPointMake(self.size.width + enemy.size.width/2, self.size.height/2);
     
     [self addChild:enemy];
-    SKAction *actionMove = [SKAction moveTo:CGPointMake(-enemy.size.width/2, enemy.position.y) duration:2.0];
-    [enemy runAction:actionMove];
-}
+    SKAction *actionMidMove =
+    [SKAction moveTo:CGPointMake(self.size.width/2, enemy.size.height/2) duration:1.0];
+    SKAction *actionMove = [SKAction moveTo:CGPointMake(-enemy.size.width/2, enemy.position.y) duration:1.0];
+    SKAction *wait = [SKAction waitForDuration:0.25];
+    SKAction *sequence = [SKAction sequence:@[actionMidMove, wait, actionMove]];
+    [enemy runAction:sequence];}
 
 @end
