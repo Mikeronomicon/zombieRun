@@ -16,6 +16,18 @@
 		CB732D981BF5408100CCEC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB732D961BF5408100CCEC87 /* LaunchScreen.storyboard */; };
 		CB732DA31BF5408200CCEC87 /* Zombie_CongaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732DA21BF5408200CCEC87 /* Zombie_CongaTests.m */; };
 		CB732DAE1BF5408200CCEC87 /* Zombie_CongaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB732DAD1BF5408200CCEC87 /* Zombie_CongaUITests.m */; };
+		CBCC13921C1231A200DB206F /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC13861C1231A200DB206F /* cat.png */; };
+		CBCC13931C1231A200DB206F /* cat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC13871C1231A200DB206F /* cat@2x.png */; };
+		CBCC13941C1231A200DB206F /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC13881C1231A200DB206F /* enemy.png */; };
+		CBCC13951C1231A200DB206F /* enemy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC13891C1231A200DB206F /* enemy@2x.png */; };
+		CBCC13961C1231A200DB206F /* zombie1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC138A1C1231A200DB206F /* zombie1.png */; };
+		CBCC13971C1231A200DB206F /* zombie1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC138B1C1231A200DB206F /* zombie1@2x.png */; };
+		CBCC13981C1231A200DB206F /* zombie2.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC138C1C1231A200DB206F /* zombie2.png */; };
+		CBCC13991C1231A200DB206F /* zombie2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC138D1C1231A200DB206F /* zombie2@2x.png */; };
+		CBCC139A1C1231A200DB206F /* zombie3.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC138E1C1231A200DB206F /* zombie3.png */; };
+		CBCC139B1C1231A200DB206F /* zombie3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC138F1C1231A200DB206F /* zombie3@2x.png */; };
+		CBCC139C1C1231A200DB206F /* zombie4.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC13901C1231A200DB206F /* zombie4.png */; };
+		CBCC139D1C1231A200DB206F /* zombie4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCC13911C1231A200DB206F /* zombie4@2x.png */; };
 		CBF1C3BF1BF54969006A588C /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B11BF54969006A588C /* Icon-29.png */; };
 		CBF1C3C01BF54969006A588C /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B21BF54969006A588C /* Icon-58.png */; };
 		CBF1C3C11BF54969006A588C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3B31BF54969006A588C /* Icon-72.png */; };
@@ -40,18 +52,6 @@
 		CBF1C3E31BF56091006A588C /* YouLose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3DB1BF56091006A588C /* YouLose@2x.png */; };
 		CBF1C3E41BF56091006A588C /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3DC1BF56091006A588C /* YouWin.png */; };
 		CBF1C3E51BF56091006A588C /* YouWin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C3DD1BF56091006A588C /* YouWin@2x.png */; };
-		CBF1C40C1BF5678C006A588C /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4001BF5678C006A588C /* cat.png */; };
-		CBF1C40D1BF5678C006A588C /* cat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4011BF5678C006A588C /* cat@2x.png */; };
-		CBF1C40E1BF5678C006A588C /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4021BF5678C006A588C /* enemy.png */; };
-		CBF1C40F1BF5678C006A588C /* enemy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4031BF5678C006A588C /* enemy@2x.png */; };
-		CBF1C4101BF5678C006A588C /* zombie1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4041BF5678C006A588C /* zombie1.png */; };
-		CBF1C4111BF5678C006A588C /* zombie1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4051BF5678C006A588C /* zombie1@2x.png */; };
-		CBF1C4121BF5678C006A588C /* zombie2.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4061BF5678C006A588C /* zombie2.png */; };
-		CBF1C4131BF5678C006A588C /* zombie2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4071BF5678C006A588C /* zombie2@2x.png */; };
-		CBF1C4141BF5678C006A588C /* zombie3.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4081BF5678C006A588C /* zombie3.png */; };
-		CBF1C4151BF5678C006A588C /* zombie3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C4091BF5678C006A588C /* zombie3@2x.png */; };
-		CBF1C4161BF5678C006A588C /* zombie4.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C40A1BF5678C006A588C /* zombie4.png */; };
-		CBF1C4171BF5678C006A588C /* zombie4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C40B1BF5678C006A588C /* zombie4@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +90,18 @@
 		CB732DA91BF5408200CCEC87 /* Zombie CongaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zombie CongaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB732DAD1BF5408200CCEC87 /* Zombie_CongaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zombie_CongaUITests.m; sourceTree = "<group>"; };
 		CB732DAF1BF5408200CCEC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCC13861C1231A200DB206F /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		CBCC13871C1231A200DB206F /* cat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat@2x.png"; sourceTree = "<group>"; };
+		CBCC13881C1231A200DB206F /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		CBCC13891C1231A200DB206F /* enemy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy@2x.png"; sourceTree = "<group>"; };
+		CBCC138A1C1231A200DB206F /* zombie1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie1.png; sourceTree = "<group>"; };
+		CBCC138B1C1231A200DB206F /* zombie1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zombie1@2x.png"; sourceTree = "<group>"; };
+		CBCC138C1C1231A200DB206F /* zombie2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie2.png; sourceTree = "<group>"; };
+		CBCC138D1C1231A200DB206F /* zombie2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zombie2@2x.png"; sourceTree = "<group>"; };
+		CBCC138E1C1231A200DB206F /* zombie3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie3.png; sourceTree = "<group>"; };
+		CBCC138F1C1231A200DB206F /* zombie3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zombie3@2x.png"; sourceTree = "<group>"; };
+		CBCC13901C1231A200DB206F /* zombie4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie4.png; sourceTree = "<group>"; };
+		CBCC13911C1231A200DB206F /* zombie4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zombie4@2x.png"; sourceTree = "<group>"; };
 		CBF1C3B11BF54969006A588C /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29.png"; path = "App Icon/Icon-29.png"; sourceTree = "<group>"; };
 		CBF1C3B21BF54969006A588C /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-58.png"; path = "App Icon/Icon-58.png"; sourceTree = "<group>"; };
 		CBF1C3B31BF54969006A588C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "App Icon/Icon-72.png"; sourceTree = "<group>"; };
@@ -114,18 +126,6 @@
 		CBF1C3DB1BF56091006A588C /* YouLose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YouLose@2x.png"; path = "Zombie Conga/Art/Backgrounds/YouLose@2x.png"; sourceTree = "<group>"; };
 		CBF1C3DC1BF56091006A588C /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YouWin.png; path = "Zombie Conga/Art/Backgrounds/YouWin.png"; sourceTree = "<group>"; };
 		CBF1C3DD1BF56091006A588C /* YouWin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YouWin@2x.png"; path = "Zombie Conga/Art/Backgrounds/YouWin@2x.png"; sourceTree = "<group>"; };
-		CBF1C4001BF5678C006A588C /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = ../../../../../.Trash/sprites/cat.png; sourceTree = "<group>"; };
-		CBF1C4011BF5678C006A588C /* cat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat@2x.png"; path = "../../../../../.Trash/sprites/cat@2x.png"; sourceTree = "<group>"; };
-		CBF1C4021BF5678C006A588C /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy.png; path = ../../../../../.Trash/sprites/enemy.png; sourceTree = "<group>"; };
-		CBF1C4031BF5678C006A588C /* enemy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "enemy@2x.png"; path = "../../../../../.Trash/sprites/enemy@2x.png"; sourceTree = "<group>"; };
-		CBF1C4041BF5678C006A588C /* zombie1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zombie1.png; path = ../../../../../.Trash/sprites/zombie1.png; sourceTree = "<group>"; };
-		CBF1C4051BF5678C006A588C /* zombie1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zombie1@2x.png"; path = "../../../../../.Trash/sprites/zombie1@2x.png"; sourceTree = "<group>"; };
-		CBF1C4061BF5678C006A588C /* zombie2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zombie2.png; path = ../../../../../.Trash/sprites/zombie2.png; sourceTree = "<group>"; };
-		CBF1C4071BF5678C006A588C /* zombie2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zombie2@2x.png"; path = "../../../../../.Trash/sprites/zombie2@2x.png"; sourceTree = "<group>"; };
-		CBF1C4081BF5678C006A588C /* zombie3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zombie3.png; path = ../../../../../.Trash/sprites/zombie3.png; sourceTree = "<group>"; };
-		CBF1C4091BF5678C006A588C /* zombie3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zombie3@2x.png"; path = "../../../../../.Trash/sprites/zombie3@2x.png"; sourceTree = "<group>"; };
-		CBF1C40A1BF5678C006A588C /* zombie4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zombie4.png; path = ../../../../../.Trash/sprites/zombie4.png; sourceTree = "<group>"; };
-		CBF1C40B1BF5678C006A588C /* zombie4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zombie4@2x.png"; path = "../../../../../.Trash/sprites/zombie4@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +176,7 @@
 		CB732D821BF5408100CCEC87 /* Zombie Conga */ = {
 			isa = PBXGroup;
 			children = (
+				CBCC13851C1231A200DB206F /* sprites */,
 				CBF1C3D41BF54F5F006A588C /* GameScene.sks */,
 				CB732D861BF5408100CCEC87 /* AppDelegate.h */,
 				CB732D871BF5408100CCEC87 /* AppDelegate.m */,
@@ -183,7 +184,6 @@
 				CB732D8A1BF5408100CCEC87 /* GameScene.m */,
 				CB732D8E1BF5408100CCEC87 /* GameViewController.h */,
 				CB732D8F1BF5408100CCEC87 /* GameViewController.m */,
-				CBF1C4181BF567B1006A588C /* sprites */,
 				CBF1C3E61BF5609F006A588C /* background */,
 				CBF1C3CF1BF549A9006A588C /* Sounds */,
 				CBF1C3CD1BF54994006A588C /* app icon */,
@@ -222,6 +222,26 @@
 			path = "Zombie CongaUITests";
 			sourceTree = "<group>";
 		};
+		CBCC13851C1231A200DB206F /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC13861C1231A200DB206F /* cat.png */,
+				CBCC13871C1231A200DB206F /* cat@2x.png */,
+				CBCC13881C1231A200DB206F /* enemy.png */,
+				CBCC13891C1231A200DB206F /* enemy@2x.png */,
+				CBCC138A1C1231A200DB206F /* zombie1.png */,
+				CBCC138B1C1231A200DB206F /* zombie1@2x.png */,
+				CBCC138C1C1231A200DB206F /* zombie2.png */,
+				CBCC138D1C1231A200DB206F /* zombie2@2x.png */,
+				CBCC138E1C1231A200DB206F /* zombie3.png */,
+				CBCC138F1C1231A200DB206F /* zombie3@2x.png */,
+				CBCC13901C1231A200DB206F /* zombie4.png */,
+				CBCC13911C1231A200DB206F /* zombie4@2x.png */,
+			);
+			name = sprites;
+			path = "../../../../iOS Games By Tutorials/Chapter 1 - Sprites/Art/sprites";
+			sourceTree = "<group>";
+		};
 		CBF1C3CD1BF54994006A588C /* app icon */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,25 +277,6 @@
 			);
 			name = background;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		CBF1C4181BF567B1006A588C /* sprites */ = {
-			isa = PBXGroup;
-			children = (
-				CBF1C4001BF5678C006A588C /* cat.png */,
-				CBF1C4011BF5678C006A588C /* cat@2x.png */,
-				CBF1C4021BF5678C006A588C /* enemy.png */,
-				CBF1C4031BF5678C006A588C /* enemy@2x.png */,
-				CBF1C4041BF5678C006A588C /* zombie1.png */,
-				CBF1C4051BF5678C006A588C /* zombie1@2x.png */,
-				CBF1C4061BF5678C006A588C /* zombie2.png */,
-				CBF1C4071BF5678C006A588C /* zombie2@2x.png */,
-				CBF1C4081BF5678C006A588C /* zombie3.png */,
-				CBF1C4091BF5678C006A588C /* zombie3@2x.png */,
-				CBF1C40A1BF5678C006A588C /* zombie4.png */,
-				CBF1C40B1BF5678C006A588C /* zombie4@2x.png */,
-			);
-			name = sprites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,44 +383,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF1C3CB1BF54969006A588C /* iTunesArtwork.png in Resources */,
-				CBF1C4131BF5678C006A588C /* zombie2@2x.png in Resources */,
 				CBF1C3E01BF56091006A588C /* MainMenu.png in Resources */,
-				CBF1C4171BF5678C006A588C /* zombie4@2x.png in Resources */,
-				CBF1C40E1BF5678C006A588C /* enemy.png in Resources */,
+				CBCC13941C1231A200DB206F /* enemy.png in Resources */,
 				CBF1C3E21BF56091006A588C /* YouLose.png in Resources */,
-				CBF1C4141BF5678C006A588C /* zombie3.png in Resources */,
 				CBF1C3CA1BF54969006A588C /* Icon@2x.png in Resources */,
 				CB732D981BF5408100CCEC87 /* LaunchScreen.storyboard in Resources */,
+				CBCC13971C1231A200DB206F /* zombie1@2x.png in Resources */,
 				CBF1C3C51BF54969006A588C /* Icon-Small-50.png in Resources */,
-				CBF1C40C1BF5678C006A588C /* cat.png in Resources */,
-				CBF1C4111BF5678C006A588C /* zombie1@2x.png in Resources */,
-				CBF1C4101BF5678C006A588C /* zombie1.png in Resources */,
+				CBCC139B1C1231A200DB206F /* zombie3@2x.png in Resources */,
 				CBF1C3D51BF54F5F006A588C /* GameScene.sks in Resources */,
 				CBF1C3C71BF54969006A588C /* Icon-Small.png in Resources */,
 				CB732D951BF5408100CCEC87 /* Assets.xcassets in Resources */,
 				CB732D931BF5408100CCEC87 /* Main.storyboard in Resources */,
+				CBCC13981C1231A200DB206F /* zombie2.png in Resources */,
 				CBF1C3C21BF54969006A588C /* Icon-80.png in Resources */,
 				CBF1C3DE1BF56091006A588C /* background.png in Resources */,
-				CBF1C4161BF5678C006A588C /* zombie4.png in Resources */,
 				CBF1C3E41BF56091006A588C /* YouWin.png in Resources */,
 				CBF1C3C61BF54969006A588C /* Icon-Small-50@2x.png in Resources */,
 				CBF1C3E11BF56091006A588C /* MainMenu@2x.png in Resources */,
 				CBF1C3D21BF549A9006A588C /* Sounds in Resources */,
 				CBF1C3BF1BF54969006A588C /* Icon-29.png in Resources */,
+				CBCC139D1C1231A200DB206F /* zombie4@2x.png in Resources */,
 				CBF1C3E31BF56091006A588C /* YouLose@2x.png in Resources */,
-				CBF1C4151BF5678C006A588C /* zombie3@2x.png in Resources */,
 				CBF1C3C11BF54969006A588C /* Icon-72.png in Resources */,
 				CBF1C3C31BF54969006A588C /* Icon-120.png in Resources */,
+				CBCC139C1C1231A200DB206F /* zombie4.png in Resources */,
+				CBCC13961C1231A200DB206F /* zombie1.png in Resources */,
 				CBF1C3E51BF56091006A588C /* YouWin@2x.png in Resources */,
 				CBF1C3CC1BF54969006A588C /* iTunesArtwork@2x.png in Resources */,
-				CBF1C40F1BF5678C006A588C /* enemy@2x.png in Resources */,
+				CBCC13991C1231A200DB206F /* zombie2@2x.png in Resources */,
 				CBF1C3C41BF54969006A588C /* Icon-144.png in Resources */,
 				CBF1C3C91BF54969006A588C /* Icon.png in Resources */,
 				CBF1C3DF1BF56091006A588C /* background@2x.png in Resources */,
 				CBF1C3C01BF54969006A588C /* Icon-58.png in Resources */,
-				CBF1C4121BF5678C006A588C /* zombie2.png in Resources */,
-				CBF1C40D1BF5678C006A588C /* cat@2x.png in Resources */,
+				CBCC139A1C1231A200DB206F /* zombie3.png in Resources */,
+				CBCC13931C1231A200DB206F /* cat@2x.png in Resources */,
+				CBCC13921C1231A200DB206F /* cat.png in Resources */,
 				CBF1C3C81BF54969006A588C /* Icon-Small@2x.png in Resources */,
+				CBCC13951C1231A200DB206F /* enemy@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +633,7 @@
 		CB732DB91BF5408200CCEC87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = "Zombie CongaUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -645,6 +647,7 @@
 		CB732DBA1BF5408200CCEC87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Zombie CongaUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mike.Zombie-CongaUITests";
