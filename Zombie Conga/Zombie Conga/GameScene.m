@@ -175,4 +175,10 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
     _velocity = newVelocity;
 }
 
+-(void)spawnEnemy {
+    SKSpriteNode *enemy = [SKSpriteNode spriteNodeWithImageNamed:@"enemy"];
+    enemy.position = CGPointMake(self.size.width + enemy.size.width/2, self.size.height/2);
+    [self addChild:enemy];
+}
+
 @end
