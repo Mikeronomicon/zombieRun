@@ -42,6 +42,7 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
     NSTimeInterval _lastUpdateTime;
     NSTimeInterval _dt;
     CGPoint _velocity;
+    CGPoint _lastTouchLocation;
 }
 
 -(id)initWithSize:(CGSize)size
@@ -63,7 +64,8 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
     return self;
 }
 
--(void)update:(NSTimeInterval)currentTime {
+- (void)update:(NSTimeInterval)currentTime
+{
     if (_lastUpdateTime) {
         _dt = currentTime - _lastUpdateTime;
     } else {
@@ -71,28 +73,34 @@ static const float ZOMBIE_MOVE_POINTS_PER_SEC = 120.0;
     }
     _lastUpdateTime = currentTime;
     NSLog(@"%0.2f milliseconds since last update", _dt * 1000);
-//    _zombie.position = CGPointMake(_zombie.position.x + 2, _zombie.position.y);
-    [self moveSprite:_zombie velocity:_velocity];
-    [self boundsCheckPlayer];
-    [self rotateSprite:_zombie toFace:_velocity];
+    
+    CGPoint offset = CGPointSubtract(_lastTouchLocation, _zombie.position);
+    float distance = CGPointLength(offset);
+    if (distance < ZOMBIE_MOVE_POINTS_PER_SEC * _dt) {
+        _zombie.position = _lastTouchLocation;
+        _velocity = CGPointZero;
+    } else {
+        [self moveSprite:_zombie velocity:_velocity];
+        [self boundsCheckPlayer];
+        [self rotateSprite:_zombie toFace:_velocity];
+    }
 }
-
 -(void)moveSprite:(SKSpriteNode *)sprite velocity:(CGPoint)velocity {
-    CGPoint amountToMove = CGPointMake(velocity.x * _dt, velocity.y * _dt);
+    CGPoint amountToMove = CGPointMultiplyScalar(velocity, _dt);
     NSLog(@"Amount to move: %@", NSStringFromCGPoint(amountToMove));
     
-    sprite.position = CGPointMake(sprite.position.x + amountToMove.x, sprite.position.y + amountToMove.y);
+    sprite.position = CGPointAdd(sprite.position, amountToMove);
 }
 
 -(void)rotateSprite:(SKSpriteNode *)sprite toFace:(CGPoint)direction {
-    sprite.zRotation = atan2f(direction.y, direction.x);
+    sprite.zRotation = CGPointToAngle(direction);
 }
 
 -(void)moveZombieToward:(CGPoint)location {
-    CGPoint offset = CGPointMake(location.x - _zombie.position.x, location.y - _zombie.position.y);
-    CGFloat length = sqrtf(offset.x * offset.x + offset.y * offset.y);
-    CGPoint direction = CGPointMake(offset.x / length, offset.y / length);
-    _velocity = CGPointMake(direction.x * ZOMBIE_MOVE_POINTS_PER_SEC, direction.y * ZOMBIE_MOVE_POINTS_PER_SEC);
+    _lastTouchLocation = location;
+    CGPoint offset = CGPointSubtract(location, _zombie.position);
+    CGPoint direction = CGPointNormalize(offset);
+    _velocity = CGPointMultiplyScalar(direction, ZOMBIE_MOVE_POINTS_PER_SEC);
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
