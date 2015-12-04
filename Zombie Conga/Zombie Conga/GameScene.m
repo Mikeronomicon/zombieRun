@@ -90,8 +90,6 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
         _dt = 0;
     }
     _lastUpdateTime = currentTime;
-    NSLog(@"%0.2f milliseconds since last update", _dt * 1000);
-    
     CGPoint offset = CGPointSubtract(_lastTouchLocation, _zombie.position);
     float distance = CGPointLength(offset);
     if (distance < ZOMBIE_MOVE_POINTS_PER_SEC * _dt) {
@@ -180,10 +178,16 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
     
     [self addChild:enemy];
     SKAction *actionMidMove =
-    [SKAction moveTo:CGPointMake(self.size.width/2, enemy.size.height/2) duration:1.0];
-    SKAction *actionMove = [SKAction moveTo:CGPointMake(-enemy.size.width/2, enemy.position.y) duration:1.0];
+    [SKAction moveByX:-self.size.width/2 - enemy.size.width/2 y:-self.size.height/2 + enemy.size.height/2 duration:1.0];
+    SKAction *actionMove = [SKAction moveByX:-self.size.width/2 - enemy.size.width/2 y:-self.size.height/2 + enemy.size.height/2 duration:1.0];
     SKAction *wait = [SKAction waitForDuration:0.25];
-    SKAction *sequence = [SKAction sequence:@[actionMidMove, wait, actionMove]];
-    [enemy runAction:sequence];}
+    SKAction *logMessage = [SKAction runBlock:^{
+        NSLog(@"reached bottom");
+    }];
+    SKAction *sequence = [SKAction sequence:@[actionMidMove, logMessage, wait, actionMove]];
+    sequence = [SKAction sequence:@[sequence, [sequence reversedAction]]];
+    SKAction *repeat = [SKAction repeatActionForever:sequence];
+    [enemy runAction:repeat];
+}
 
 @end
