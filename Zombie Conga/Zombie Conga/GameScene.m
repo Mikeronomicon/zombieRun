@@ -39,7 +39,9 @@ static inline CGFloat ScalarSign(CGFloat a) {
 
 #define ARC4RANDOM_MAX 0x10000000
 
-
+static inline CGFloat ScalarRandomRange(CGFloat min, CGFloat max) {
+    return floorf(((double)arc4random()/ARC4RANDOM_MAX) * (max - min) + min);
+}
 
 //Returns shortest angle between two angles,
 //between -M_PI and M_PI
@@ -176,11 +178,12 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
     _velocity = newVelocity;
 }
 
--(void)spawnEnemy {
+- (void)spawnEnemy {
     SKSpriteNode *enemy = [SKSpriteNode spriteNodeWithImageNamed:@"enemy"];
-    enemy.position = CGPointMake(self.size.width + enemy.size.width/2, self.size.height/2);
-    
+    enemy.position = CGPointMake(self.size.width + enemy.size.width/2, ScalarRandomRange(enemy.size.height/2, self.size.height - enemy.size.height/2));
     [self addChild:enemy];
-   }
-
-@end
+    
+    SKAction *actionMove = [SKAction moveToX:-enemy.size.width/2 duration:2.0];
+    [enemy runAction:actionMove];
+}
+    @end
