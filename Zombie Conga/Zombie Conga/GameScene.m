@@ -184,6 +184,7 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
     [self addChild:enemy];
     
     SKAction *actionMove = [SKAction moveToX:-enemy.size.width/2 duration:2.0];
-    [enemy runAction:actionMove];
+    SKAction *actionRemove = [SKAction removeFromParent];
+    [enemy runAction: [SKAction sequence:@[actionMove, actionRemove]]];
 }
     @end
