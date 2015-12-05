@@ -82,7 +82,7 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
         _zombie = [SKSpriteNode spriteNodeWithImageNamed:@"zombie1"];
         [self moveSprite:_zombie velocity:CGPointMake(ZOMBIE_MOVE_POINTS_PER_SEC, 0)];
         [self addChild:_zombie];
-        [self spawnEnemy];
+        [self runAction:[SKAction repeatActionForever:[SKAction sequence:@[[SKAction performSelector:@selector(spawnEnemy) onTarget:self], [SKAction waitForDuration:2.0]]]]];
 
     }
     return self;
