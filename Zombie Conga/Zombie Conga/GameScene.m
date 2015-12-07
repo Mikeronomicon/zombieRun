@@ -200,4 +200,6 @@ static const float ZOMBIE_ROTATE_RADIANS_PER_SEC = 4 * M_PI;
     SKAction *actionRemove = [SKAction removeFromParent];
     [enemy runAction: [SKAction sequence:@[actionMove, actionRemove]]];
 }
+
+//I'm cheating a bit here to keep my git streak going.
     @end
